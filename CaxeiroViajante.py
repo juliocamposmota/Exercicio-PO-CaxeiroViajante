@@ -111,7 +111,8 @@ for i in range(sizeDestinations):
   for j in range(sizeDestinations):
     if (value(xMatrix[i][j]) != 0):
       path = str(xMatrix[i][j]) + "=" + str(value(xMatrix[i][j]))
-      print(str(xMatrix[i][j]) + "=" + str(value(xMatrix[i][j])))
+      print(path)
+  betterPath.append(path)
     
 print('Solução:')
 print(solution)
@@ -124,4 +125,4 @@ print(choiceMatrix)
 print("\nFunção Objetivo: " + str(value(problem.objective)))
 
 print('\nMelhor Caminho:')
-# print(betterPath)
+print(betterPath)
