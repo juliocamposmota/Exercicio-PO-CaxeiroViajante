@@ -1,4 +1,4 @@
-# loc iloc
+# Utilizando .loc e .iloc para seleções
 import pandas as pd
 
 import pandas as pd
