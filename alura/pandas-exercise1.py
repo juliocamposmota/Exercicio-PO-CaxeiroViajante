@@ -1,3 +1,4 @@
+# Criando DataFrames
 import pandas as pd
 
 dados = {
@@ -18,9 +19,7 @@ def km_media(dataset, ano_atual):
     return result
 
 dataset = km_media(dados, 2019)
-
 print(dataset)
 
 carros = pd.DataFrame(dataset)
-
 print(carros.T)
